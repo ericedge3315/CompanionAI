@@ -1,0 +1,62 @@
+.logo {
+    width: 500px; /* Adjust the width of the logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+
+.SelectPage {
+    text-align: center;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif; 
+    color: #FF9900
+  }
+  
+  .SelectPage h1 {
+    margin-bottom: 20px;
+  }
+  
+  .celebrity-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .celebrity-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .celebrity-item img {
+    width: 400px; /* Set a fixed width for all images */
+    height: 400px; /* Set a fixed height for all images */
+    border-radius: 10px;
+    margin-bottom: 10px; /* Add margin below the image */
+  }
+  
+  .celebrity-item button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #FF9900;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .celebrity-item button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  /* Add padding to Olivia Rodrigo and TOP G */
+  .celebrity-item:nth-child(1) { /* Olivia Rodrigo */
+    margin-left: 50px; /* Add left padding */
+    margin-right: 10px; /* Add right padding */
+  }
+  
+  .celebrity-item:nth-child(3) { /* TOP G */
+    margin-left: 10px; /* Add left padding */
+    margin-right: 50px; /* Add right padding */
+  }
+  
